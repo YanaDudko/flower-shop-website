@@ -1,0 +1,39 @@
+﻿@font-face {
+	font-family: "Caprasimo";
+	src: url("../fonts/caprasimo/caprasimo-regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hanuman";
+	src: url("../fonts/hanuman/hanuman-regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Outfit";
+	src: url("../fonts/outfit/outfit-regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Outfit";
+	src: url("../fonts/outfit/outfit-medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Outfit";
+	src: url("../fonts/outfit/outfit-bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
