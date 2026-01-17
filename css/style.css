@@ -21,6 +21,10 @@ a {
 	color: #2c2825;
 	text-decoration: none;
 	cursor: pointer;
+	transition: opacity 0.3s;
+}
+a:hover {
+	opacity: 0.8;
 }
 img {
 	max-width: 100%;
@@ -34,4 +38,36 @@ ul {
 	max-width: 1280px;
 	margin: 0 auto;
 	padding-inline: 40px;
+}
+/* Хедер */
+.main-header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	background-color: #fff;
+}
+.main-header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-block: 27px;
+	border-bottom: 1px solid #2b1313;
+}
+.main-header__logo {
+	font-family: "Caprasimo", serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 0.92;
+	letter-spacing: -0.03em;
+}
+.menu-header__list {
+	display: flex;
+	gap: 40px;
+}
+.menu-header__link {
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
 }
