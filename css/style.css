@@ -110,22 +110,31 @@ ul {
 	position: absolute;
 	left: 22.5px;
 	bottom: 22.5px;
-	
-
-width: 188.31px;
-height: 188.31px;
-
-
+	text-align: center;
+	width: 188px;
+	height: 188px;
 }
-
+.hero-sticker-content {
+	max-width: 140px;
+	text-align: center;
+	color: #000000;
+}
 .hero__sticker-label {
-
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
 }
 
 .hero__sticker-text {
-
+	font-weight: 500;
+	font-size: 24px;
+	letter-spacing: -0.01em;
 }
 
 .hero__sticker-note {
-
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
 }
