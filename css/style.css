@@ -41,6 +41,9 @@ ul {
 	margin: 0 auto;
 	padding-inline: 40px;
 }
+.inner {
+	padding-inline: 40px;
+}
 /* Header */
 .main-header {
 	width: 100%;
@@ -81,7 +84,7 @@ ul {
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
 }
-/* HERO */
+/* Hero */
 .hero {
 	margin-block: 150px 120px;
 }
@@ -93,13 +96,9 @@ ul {
 }
 .hero__background {
 	position: relative;
-}
-.hero__background::after {
-	content: "";
-	background-image: url(../img/decor/floral-accent-01.jpg);
 	width: 100%;
 	height: 570px;
-	display: block;
+	background-image: url(../img/decor/floral-accent-01.jpg);
 	background-size: cover;
 	background-position: center 29%;
 	background-repeat: no-repeat;
@@ -107,17 +106,28 @@ ul {
 	transition: background-position 0.4s ease;
 }
 .hero__sticker {
+	display: flex;
+	justify-content: center;
+	width: 188px;
+	height: 188px;
+	background-image: url(../img/decor/sticker-badge.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: absolute;
 	left: 22.5px;
 	bottom: 22.5px;
-	text-align: center;
-	width: 188px;
-	height: 188px;
 }
-.hero-sticker-content {
-	max-width: 140px;
+.hero__sticker-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 9px;
 	text-align: center;
+}
+.hero__sticker-content p {
+	max-width: 140px;
 	color: #000000;
+	margin: 0;
 }
 .hero__sticker-label {
 	font-weight: 700;
