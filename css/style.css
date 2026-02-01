@@ -109,7 +109,7 @@ ul {
 }
 /* Hero */
 .hero {
-	margin-block: 150px 120px;
+	margin-top: 150px;
 }
 .hero__container {
 	margin-bottom: 120px;
@@ -168,6 +168,34 @@ ul {
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
 }
+/* Promo */
+.promo {
+	padding-block: 120px;
+}
+.promo__inner {
+	max-width: 740px;
+	margin: 0 auto;
+	text-align: center;
+}
+.promo__title {
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #575757;
+	margin-block: 0 20px;
+}
+.promo__text {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.1;
+	letter-spacing: -0.025em;
+	color: #171615;	
+	margin-block: 0 40px;
+}
+
+
+
 
 
 
