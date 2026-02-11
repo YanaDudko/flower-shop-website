@@ -224,3 +224,27 @@ ul {
 	height: 100%;
 	object-fit: cover;
 }
+/* Services */
+.services__heading {
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #595959;;
+}
+.section-title {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.1;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	color: #171615;
+}
+.services__title {
+	margin-block: 0 40px;
+}
+.services__item-title {
+	margin-block: 0 30px;
+}
+.services__description {
+	margin-block: 0 20px;
+}
+
