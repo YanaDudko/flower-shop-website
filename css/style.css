@@ -183,6 +183,9 @@ ul {
 .promo {
 	padding-block: 120px;
 }
+.promo--spacious {
+	padding-block: 200px;
+}
 .promo__inner {
 	max-width: 740px;
 	margin: 0 auto;
