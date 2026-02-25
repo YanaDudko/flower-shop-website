@@ -316,3 +316,45 @@ ul {
 	background-repeat: no-repeat;
 	border-radius: 30px;
 }
+/* Footer */
+.main-footer {
+	font-size: 24px;
+	letter-spacing: -0.01em;
+	color: #F7F7F7;
+}
+.main-footer a {
+	color: inherit;
+}
+.main-footer__background {
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #3c3804 100%), url(../img/decor/floral-accent-03.jpg);
+	height: 582px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 30px 30px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.main-footer__content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	margin: 0 30px 20px;
+}
+.main-footer__logo {
+font-family: 'Caprasimo';
+font-size: 117px;
+line-height: 0.92;
+letter-spacing: -0.03em;
+}
+.main-footer__info {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-footer__location {
+	margin: 0;
+}
