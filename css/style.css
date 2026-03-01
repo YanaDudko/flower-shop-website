@@ -137,7 +137,11 @@ ul {
 	background-position: center 29%;
 	background-repeat: no-repeat;
 	border-radius: 30px;
-	transition: background-position 0.4s ease;
+}
+@media (max-width: 800px) {
+	.hero__background {
+		background-position: center;
+	}
 }
 .hero__sticker {
 	display: flex;
@@ -208,12 +212,14 @@ ul {
 	margin-block: 0 40px;
 }
 /* Showcase */
+.showcase {
+	overflow: hidden;
+  }
 .showcase__list {
 	display: flex;
 	gap: 20px;
-	justify-content: center;
-	padding: 0px 0px 75px 40px;
-	overflow-x: scroll;
+	padding-bottom: 75px;
+	overflow-x: auto;
 }
 .showcase__item {
 	width: 300px;
@@ -344,10 +350,10 @@ ul {
 	margin: 0 30px 20px;
 }
 .main-footer__logo {
-font-family: 'Caprasimo';
-font-size: 117px;
-line-height: 0.92;
-letter-spacing: -0.03em;
+	font-family: "Caprasimo", serif;
+	font-size: 117px;
+	line-height: 0.92;
+	letter-spacing: -0.03em;
 }
 .main-footer__info {
 	width: 100%;
