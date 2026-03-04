@@ -282,6 +282,9 @@ ul {
 	color: #171615;
 	order: -2;
 }
+.services__item-content {
+	width: 100%;
+}
 .services__item-title {
 	margin-block: 0 30px;
 }
