@@ -291,10 +291,13 @@ ul {
 }
 .services__item-image {
 	width: 145px;
-	height: 140px;
+	height: 145px;
 	border-radius: 30px;
 	object-fit: cover;
 	order: -1;
+}
+.services__item-image--short {
+	height: 140px;
 }
 .services__item-image--small-radius {
 	border-radius: 15px;
