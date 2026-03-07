@@ -108,6 +108,9 @@ ul {
 	line-height: 0.92;
 	letter-spacing: -0.03em;
 }
+.main-header__logo-abbr {
+	display: none;
+}
 .main-header__list {
 	display: flex;
 	gap: 40px;
@@ -369,48 +372,60 @@ ul {
 /* Tablet */
 @media (max-width: 800px) {
 	.main-header .container {
-		padding-block: 28px;
+	padding-block: 28px;
 	}
 	.main-header__logo {
-		font-size: 28px;
+	font-size: 28px;
 }
 	.hero__background {
-		background-position: center;
+	background-position: center;
 }
 	.hero__sticker-text {
-		font-size: 22px;
+	font-size: 22px;
 }
 	.promo__inner {
-		max-width: 412px;
+	max-width: 412px;
 }
 	.promo__text {
-		font-size: 36px;
+	font-size: 36px;
 }
 	.showcase__list {
-		padding-left: 20px;
+	padding-left: 20px;
 }
 	.section-title {
-		font-size: 45px;
+	font-size: 45px;
 }
 	.services__description {
-		font-size: 16px;
+	font-size: 16px;
 }
 	.services__item::before {
-		font-size: 45px;
+	font-size: 45px;
 }
 	.visual-divider__image {
-		height: 450px;
+	height: 450px;
 }
 	.promo--spacious {
-		padding-block: 150px;
+	padding-block: 150px;
 }
 	.main-footer__background {
-		height: 579px;
+	height: 579px;
 }
 	.main-footer__location {
-		font-size: 22px;
+	font-size: 22px;
 }
 	.main-footer__contact {
-		font-size: 22px;
+	font-size: 22px;
+}
+}
+/* Mobile */
+@media (max-width: 375px) {
+	.main-header__logo {
+		font-size: 20px;
+	}
+	.main-header__logo-text {
+	display: none;
+}
+	.main-header__logo-abbr {
+	display: initial;
 }
 }
