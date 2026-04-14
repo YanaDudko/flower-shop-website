@@ -12,20 +12,29 @@
 <body>
 	<header class="main-header">
 		<div class="container">
-			<a class="main-header__logo" href="index.html">
-				<span class="main-header__logo-text">Our Blooms®</span>
-				<span class="main-header__logo-abbr">O.B.</span>
-			</a>
-			<nav class="main-header__menu-nav">
-				<ul class="main-header__list">
-					<li><a class="main-header__link" href="gallery.html">Gallery</a></li>
-					<li><a class="main-header__link" href="about.html">About</a></li>
-					<li><a class="main-header__link" href="mailto:hello@figma.com">Contact</a></li>
-				</ul>
-			</nav>
+			<div class="main-header__inner">
+				<div class="main-header__top">
+					<a class="main-header__logo" href="index.html">
+						<span class="main-header__logo-text">Our Blooms®</span>
+						<span class="main-header__logo-abbr">O.B.</span>
+					</a>
+					<button class="burger" type="button" aria-label="Открыть меню">
+						<span class="burger__line burger__line--top"></span>
+						<span class="burger__line burger__line--middle"></span>
+						<span class="burger__line burger__line--bottom"></span>
+					</button>
+				</div>
+				<nav class="main-header__menu-nav">
+					<ul class="main-header__list">
+						<li><a class="main-header__link" href="gallery.html">Gallery</a></li>
+						<li><a class="main-header__link" href="about.html">About</a></li>
+						<li><a class="main-header__link" href="mailto:hello@figma.com">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</header>
-	<main class=" main">
+	<main class="main">
 		<section class="hero">
 			<div class="container">
 				<div class="inner">
@@ -169,6 +178,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="script.js"></script>
 </body>
 
 </html>
