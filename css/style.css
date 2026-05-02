@@ -189,7 +189,7 @@ ul {
 	display: flex;
 	justify-content: center;
 	width: 188px;
-	height: 188px;
+	aspect-ratio: 1 / 1;
 	background-image: url(../img/decor/sticker-badge.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -248,7 +248,7 @@ ul {
 }
 .promo__text {
 	font-weight: 700;
-	font-size: 40px;
+	font-size: clamp(36px, 21.7px + 1.79vw, 40px);
 	line-height: 1.1;
 	letter-spacing: -0.025em;
 	color: #171615;	
@@ -265,11 +265,10 @@ ul {
 	overflow-x: auto;
 }
 .showcase__item {
-	width: 300px;
-	height: 300px;
+	flex: 0 0 clamp(200px, 111.7px + 23.5vw, 300px);
+	aspect-ratio: 1 / 1; 
 	border-radius: 30px;
 	overflow: hidden;
-	flex-shrink: 0; 
 }
 .showcase__image {
 	width: 100%;
@@ -284,7 +283,7 @@ ul {
 }
 .section-title {
 	font-weight: 700;
-	font-size: 50px;
+	font-size: clamp(36px, 27.9px + 2.16vw, 50px);
 	line-height: 1.1;
 	letter-spacing: -0.02em;
 	text-transform: uppercase;
@@ -364,7 +363,7 @@ ul {
 }  
 /* Visual Divider */
 .visual-divider__image {
-	height: 751px;
+	height: clamp(450px, -152px + 75.25vw, 751px);
 	background-image: url(../img/decor/floral-accent-02.jpg);
 	background-size: cover;
 	background-position: center;
@@ -419,46 +418,50 @@ ul {
 		padding-block: 28px;
 	}
 	.main-header__logo {
-	font-size: 28px;
-}
+		font-size: 28px;
+	}
 	.hero__background {
-	background-position: center;
-}
+		background-position: center;
+	}
+	.hero__sticker {
+		width: clamp(150px, 116.46px + 8.94vw, 188px);
+	}
 	.hero__sticker-text {
-	font-size: 22px;
-}
+		font-size: 22px;
+	}
 	.promo__inner {
-	max-width: 412px;
-}
+		max-width: 412px;
+	}
 	.promo__text {
-	font-size: 36px;
-}
+		font-size: clamp(24px, 13.4px + 2.82vw, 36px);
+	}
 	.showcase__list {
-	padding-left: 20px;
-}
-	.section-title {
-	font-size: 45px;
-}
+		padding-left: 20px;
+		padding-bottom: clamp(37px, 3.4px + 8.94vw, 75px);
+	}
 	.services__description {
-	font-size: 16px;
-}
+		font-size: 16px;
+	}
 	.services__item::before {
-	font-size: 45px;
-}
+		font-size: 45px;
+	}
 	.visual-divider__image {
-	height: 450px;
-}
+		height: clamp(400px, 355.9px + 11.76vw, 450px);
+	}
 	.promo--spacious {
-	padding-block: 150px;
-}
+		padding-block: 150px;
+	}
+	.main-footer {
+		font-size: 22px;
+	}
 	.main-footer__background {
-	height: 579px;
+		height: 579px;
 }
 }
 @media (max-width: 560px) {
 	.main-header__logo-text {
 		display: none;
-}
+	}
 	.main-header__logo-abbr {
 		display: inline;
 	}
@@ -470,7 +473,7 @@ ul {
 	}
 	.services__list {
 		padding-inline: 30px;
-}
+	}
 }
 @media (max-width: 440px) {
 	.main-header__inner {
