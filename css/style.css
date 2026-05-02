@@ -544,6 +544,9 @@ ul {
 	.services__list {
 		padding-inline: 20px;
 	}
+	.mobile-break {
+		display: block;
+	}
 }
 /* Mobile */
 @media (max-width: 375px) {
