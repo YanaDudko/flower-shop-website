@@ -513,6 +513,13 @@ ul {
     width: 100%;
     height: 100%;
 }
+/* Promo Gallery */
+.promo--gallery {
+	padding-block: 150px;
+}
+.promo--gallery .promo__inner {
+	max-width: 400px;
+}
 /* === FOOTER === */
 .main-footer {
 	font-size: 24px;
@@ -770,6 +777,9 @@ ul {
 	.section-subtitle {
 		font-size: 12px;
 	}
+	.promo--gallery .promo__title {
+		font-size: 14px;
+}
  /* Footer*/
 	.main-footer__background {
 		height: 573px;
