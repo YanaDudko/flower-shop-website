@@ -1,14 +1,14 @@
 # Flower Shop Website
 A responsive multi-page website for a fictional flower shop built as an educational project. The design is based on a Figma Community template and implemented using semantic HTML, modern CSS, and JavaScript.
 
+**Live Demo:** [View Website](https://yanadudko.github.io/flower-shop-website/)
+
 ## Design
 Figma Community template:
-https://www.figma.com/community/file/1497437463361122374
-
+[View Figma Design](https://www.figma.com/community/file/1497437463361122374)
 
 ## What this project includes
 - Three pages: home, gallery, and about
-- Reusable UI sections built with a component-based approach
 - Hero section, promo blocks, services section, catalog/gallery section, and footer
 - Mobile navigation with a burger menu
 - BEM-style class naming for structured CSS
